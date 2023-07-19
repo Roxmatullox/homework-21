@@ -1,0 +1,85 @@
+
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.projects--bottom-left{
+  height: 600px;
+  background-image: url(../../images/card-1-bg.svg);
+
+ > div{
+    height: 100%;
+    padding: 20px;
+    background: linear-gradient(306deg, #1C1E53 0%, rgba(28, 30, 83, 0.42) 100%);
+
+    h4,p{
+      color: white;
+    }
+
+    a{
+      color: var(--yellow, #FCD980);
+
+    }
+  }
+}
+
+.projects--bottom{
+  margin: 0;
+}
+
+.projects--bottom-right{
+  >div:first-child{
+    height: 284px;
+    background-image: url(../../images/card-2-bg.svg);
+    background-size: 100%;
+    >div{
+      background: linear-gradient(306deg, #1C1E53 0%, rgba(28, 30, 83, 0.42) 100%);
+
+    }
+  }
+
+  >div:last-child{
+    height: 284px;
+    background-image: url(../../images/card-3-bg.svg);
+    background-size: 100%;
+
+    >div{
+      background: linear-gradient(306deg, #1C1E53 0%, rgba(28, 30, 83, 0.42) 100%);
+
+    }
+  }
+
+    a{
+      color: var(--yellow, #FCD980);
+    }
+}
+
+
+.cards{
+ background: var(--grey, #F4F6FC);
+  
+}
+
+.all-cards {
+  div{
+    img{
+      width: 35px;
+      height: 35px;
+      flex-shrink: 0;
+      margin-top: 28px;
+      margin-left: 28px;
+    }
+  }
+}
+
+.cards-text{
+  h2{
+    max-width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
