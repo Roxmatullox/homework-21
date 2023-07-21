@@ -1,0 +1,26 @@
+.nav1{
+  background-color: #1C1E53;
+  padding: 10px;
+  .nav-link.active{
+    color: white;
+  }
+  .nav-link{
+    color:#BBBBCB;
+  }
+}
+
+
+
+.navbar-expand-lg .navbar-nav{
+  justify-content: end;
+  padding-right: 20px;
+  align-items: center;
+  gap: 20px;
+
+  button{
+    padding: 5px 48px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    background: none;
+  }
+}

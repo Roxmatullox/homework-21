@@ -1,0 +1,84 @@
+.nav1 {
+  background-color: #1C1E53;
+  padding: 10px;
+}
+.nav1 .nav-link.active {
+  color: white;
+}
+.nav1 .nav-link {
+  color: #BBBBCB;
+}
+
+.navbar-expand-lg .navbar-nav {
+  justify-content: end;
+  padding-right: 20px;
+  align-items: center;
+  gap: 20px;
+}
+.navbar-expand-lg .navbar-nav button {
+  padding: 5px 48px;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  background: none;
+}
+
+footer {
+  background: #1C1E53;
+}
+footer > * {
+  color: white;
+}
+footer p {
+  color: var(--white, #FFF);
+  max-width: 399px;
+  /* Label 2 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 17px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+footer .footer-left {
+  background-color: #FCD980;
+}
+footer .footer-left > * {
+  color: #000;
+}
+
+.inputs-1 {
+  border-radius: 12px;
+  background: var(--grey, #F4F6FC);
+  padding: 20px;
+  margin-top: 64px;
+  margin-bottom: 124px;
+}
+.inputs-1 .commit-input {
+  height: 138px;
+}
+
+main h2 {
+  color: var(--dark-blue, #282938);
+  text-align: center;
+  margin-top: 128px;
+  /* Heading 2 */
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+}
+main p {
+  color: var(--dark-blue, #282938);
+  text-align: center;
+  width: 562px;
+  margin-left: auto;
+  margin-right: auto;
+  /* Body 1 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
